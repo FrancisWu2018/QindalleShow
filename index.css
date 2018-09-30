@@ -37,8 +37,8 @@ flex-direction: column;padding: 4px;}
     z-index:1000;
     top:0;
     left:0;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
 }
 .show .picView{
     position: absolute;
@@ -47,10 +47,11 @@ flex-direction: column;padding: 4px;}
     width:90%;
     height:90%;
     text-align: center;
+    color:white;
 }
 .show .picView img{
     max-width:100%;
-    height:100%;
+    height:80%;
     border:5px solid #fff;
     border-radius:3px;
 }
