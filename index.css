@@ -1,0 +1,67 @@
+*{margin: 0;
+padding: 0;
+list-style: none;}
+.shadow{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.7);
+}
+
+.header{
+background: url("http://pft7mljp3.bkt.clouddn.com/qindalle.png") no-repeat;
+background-size: cover;
+
+}
+.header ul{display: flex;flex-direction: row-reverse;justify-content: space-around;color: brown;
+font-size: medium;font-weight: bolder;
+height: 150px;}
+
+ul img{width: 150px;
+height: 150px;}
+.container ul{display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;}
+
+.container ul li{display: flex;
+flex-direction: column;padding: 4px;}
+.container ul p{font-size: small;}
+.price{color: red;}
+.show{
+    display:none;
+    position: fixed;
+    z-index:1000;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.show .picView{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+    text-align: center;
+}
+.show .picView img{
+    max-width:100%;
+    height:100%;
+    border:5px solid #fff;
+    border-radius:3px;
+}
+.btnView .btn{
+    position:absolute;
+    top:5%;
+    width:40px;
+    height:40px;
+}
+.btnView .btn.btn-close{
+    top:0;
+    right:20px;
+    background:url('img/close.png') 100% 100% no-repeat;
+}
