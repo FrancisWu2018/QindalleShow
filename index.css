@@ -35,9 +35,9 @@ flex-direction: column;padding: 4px;}
     display:none;
     position: fixed;
     z-index:1000;
-    top:0;
+    top:10%;
     left:0;
-    width:80%;
+    width:100%;
     height:80%;
 }
 .show .picView{
@@ -51,7 +51,7 @@ flex-direction: column;padding: 4px;}
 }
 .show .picView img{
     max-width:100%;
-    height:80%;
+    height:70%;
     border:5px solid #fff;
     border-radius:3px;
 }
